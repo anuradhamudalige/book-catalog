@@ -1,6 +1,6 @@
 # Book Catalog
 
-This project is create with Angular 17.0.2. It will list down the books via connecting to the compatible backend.
+This project is create with React 17.0.2. It will list down the books via connecting to the compatible backend.
 
 ##Instructions
 
