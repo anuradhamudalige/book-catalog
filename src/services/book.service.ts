@@ -18,6 +18,6 @@ export class BookService {
     }
 
     getBook(bookId: string): AxiosPromise {
-        return HttpService.getInstance().get<IBook>(`${this.serviceEndPoint}/${bookId}`);
+        return HttpService.getInstance().get<IBook>(`${this.serviceEndPoint}${bookId}`);
     }
 }
