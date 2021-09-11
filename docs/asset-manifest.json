@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/book-catalog-app/static/css/main.82897dcc.chunk.css",
-    "main.js": "/book-catalog-app/static/js/main.43189117.chunk.js",
+    "main.js": "/book-catalog-app/static/js/main.a358426b.chunk.js",
     "runtime-main.js": "/book-catalog-app/static/js/runtime-main.85527b70.js",
     "static/js/2.fec29555.chunk.js": "/book-catalog-app/static/js/2.fec29555.chunk.js",
     "index.html": "/book-catalog-app/index.html",
@@ -11,6 +11,6 @@
     "static/js/runtime-main.85527b70.js",
     "static/js/2.fec29555.chunk.js",
     "static/css/main.82897dcc.chunk.css",
-    "static/js/main.43189117.chunk.js"
+    "static/js/main.a358426b.chunk.js"
   ]
 }
