@@ -5,6 +5,7 @@ export class HttpService {
 
     private readonly BASE_URL = AppConfig.BASE_URL;
     static instance: HttpService;
+    private _axios = axios;
 
     static getInstance() {
         if(HttpService.instance === undefined) {
@@ -14,7 +15,7 @@ export class HttpService {
     }
 
     get<T>(url: string): AxiosPromise {
-        return axios.get<T>(`${this.BASE_URL}${url}`);
+        return this._axios.get<T>(`${this.BASE_URL}${url}`);
     }
 
 }
